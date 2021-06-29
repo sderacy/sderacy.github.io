@@ -52,25 +52,25 @@ a:active {
     font-size: 1.35rem;
 }
 
-#skills {
+#skills1 {
   padding:50px 15px;
   text-align:center;
   margin:auto;
 }
 
-#skills h2 {
+#skills1 h2 {
   color:#374054;
   margin-bottom:50px
 }
 
-#skills ul {
+#skills1 ul {
   display:block;
   margin:0 auto;
   padding:0;
   max-width:800px
 } 
 
-#skills li {
+#skills1 li {
   display:inline-block;
   margin:7px;
   padding:5px 10px;
