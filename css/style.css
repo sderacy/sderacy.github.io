@@ -81,7 +81,7 @@ a:active {
   font-size:1.2em
 }
 
-#skills1 li :hover {
+#skills1 li:hover {
   display:inline-block;
   margin:7px;
   padding:5px 10px;
