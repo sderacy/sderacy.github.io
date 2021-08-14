@@ -85,8 +85,8 @@ a:active {
   display:inline-block;
   margin:7px;
   padding:5px 10px;
-  color:yellow;
-  background:navy;
+  color:white;
+  background:#374054;
   list-style:none;
   cursor:default;
   font-size:1.2em
