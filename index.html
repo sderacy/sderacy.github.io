@@ -366,6 +366,10 @@
                   <li>Android Studio</li>
                   <li>WordPress</li>
                   <li>MariaDB</li>
+                  <li>Postgres</li>
+                  <li>Rails</li>
+                  <li>Flask</li>
+                  <li>Bootstrap</li>
               </ul>
           </div>
           </div>
@@ -389,10 +393,20 @@
                   <div class="award">
                       <div class="award-icon"></div>
                       <div class="award-content">
-                          <span class="date">May 2021 </span>
-                          <h5 class="title">Upsilon Pi Episilon Honor Society</h5>
+                          <span class="date">May 2022 </span>
+                          <h5 class="title">Blue and Gold Hall of Fame</h5>
                           <p class="description">
-                             Invited to join the prestigious Computer Science honor society for my academic standing in the Sophomore class and demonstrated desire to strengthen the community around me.
+                             Invited to join the prestigious list of TCNJ students recognized for creating meaningful and sustainable impact to the campus.
+                          </p>
+                      </div>
+                  </div>
+                  <div class="award">
+                      <div class="award-icon"></div>
+                      <div class="award-content">
+                          <span class="date">May 2022</span>
+                          <h5 class="title">Junior Award</h5>
+                          <p class="description">
+                              Excellence in academics and extracurricular activites amongst the Junior class resulted in my selection for Junior award
                           </p>
                       </div>
                   </div>
@@ -400,19 +414,9 @@
                       <div class="award-icon"></div>
                       <div class="award-content">
                           <span class="date">May 2021</span>
-                          <h5 class="title">Sophomore Award & Computer Science Department Service Award</h5>
+                          <h5 class="title">Upsilon Pi Episilon Honor Society</h5>
                           <p class="description">
-                              Excellence in academics and extracurricular activites amongst the Sophomore class resulted in my selection for Sophomore award and my work in founding a Google Developer Student Club chapter at my college resulted in my service award.
-                          </p>
-                      </div>
-                  </div>
-                  <div class="award">
-                      <div class="award-icon"></div>
-                      <div class="award-content">
-                          <span class="date">February 2021</span>
-                          <h5 class="title">NJ Collegiate Press Award 2nd Best Overall Website</h5>
-                          <p class="description">
-                             The website I designed and maintain for the college newspaper was entered into a contest where we placed 2nd out of all of the college newspapers in the area.
+                            Invited to join the prestigious Computer Science honor society for my academic standing in the Sophomore class and demonstrated desire to strengthen the community around me.
                           </p>
                       </div>
                   </div>
@@ -423,12 +427,12 @@
     <!--====================================================
                           CONTACT
     ======================================================-->       
-      <section class="p-lg-1 ">
+      <section class="p-lg-1 text-center">
           <div class="col-12" id="contact"> 
 
-            <h2 align="center">Download Resume</h2> 
+            <h2 class="mb-2">Download Resume</h2> 
             
-<center><a href="ProfessionalResume.pdf" target="_blank"><button type="button" class="btn btn-outline-primary mt-3"><i class="fas fa-download"></i>&nbsp;&nbsp;Click here to Download </button></a></center>
+<a href="ProfessionalResume.pdf" target="_blank" class="text-center btn btn-outline-primary mt-3"><i class="fas fa-download"></i>&nbsp;&nbsp;Click here to Download </a>
 
 
             
@@ -730,86 +734,6 @@
     <script src="js/counter/jquery.waypoints.min.js"></script>
     <script src="js/counter/jquery.counterup.min.js"></script>
     <script src="js/custom.js"></script>
-    <script>
-        $(document).ready(function(){
-
-        $(".filter-b").click(function(){
-            var value = $(this).attr('data-filter');
-            if(value == "all")
-            { 
-                $('.filter').show('1000');
-            }
-            else
-            { 
-                $(".filter").not('.'+value).hide('3000');
-                $('.filter').filter('.'+value).show('3000');
-            }
-        });
-        
-        if ($(".filter-b").removeClass("active")) {
-          $(this).removeClass("active");
-        }
-        $(this).addClass("active");
-        });
-
-        // SKILLS
-        $(function () {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 2000
-            });
-
-        });
-    </script> 
-
-        <script>
-        
-        $(document).bind("contextmenu",function(e) {
-         e.preventDefault();
-        });
-        
-        $(document).keydown(function(e){
-            if(e.which === 123){
-               return false;
-            }
-        });
-        </script>
-
-<script>
-document.onkeydown = function(e) {
-if(event.keyCode == 123) {
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
-return false;
-}
-if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
-return false;
-}
-}
-</script>
-
 </body>
 
 </html>
