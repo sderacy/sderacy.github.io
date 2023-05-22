@@ -10,18 +10,18 @@
   transform: translateY(-7px);
 }
 
-.project__description {
+.project_description {
   margin-top: 1em;
 }
 
-.project__stack {
+.project_stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.project_stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;

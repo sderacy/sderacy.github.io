@@ -1,21 +1,22 @@
-.nav__list {
+.nav_list {
   margin-right: 1.5em;
   display: flex;
 }
-.nav__list-item {
+
+.nav_list-item {
   margin-left: 1.5em;
 }
 
-.app .nav__hamburger {
+.app .nav_hamburger {
   display: none;
 }
 
-.nav__theme {
+.nav_theme {
   margin-top: 0.4em;
 }
 
 @media (max-width: 600px) {
-  .nav__list {
+  .nav_list {
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -27,11 +28,11 @@
     z-index: 2;
   }
 
-  .nav__list-item {
+  .nav_list-item {
     margin: 0.5em 0;
   }
 
-  .app .nav__hamburger {
+  .app .nav_hamburger {
     display: flex;
     z-index: 2;
     margin-left: 0.8em;

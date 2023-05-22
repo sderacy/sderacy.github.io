@@ -17,10 +17,10 @@ const Navbar = () => {
     <nav className='center nav'>
       <ul
         style={{ display: showNavList ? 'flex' : null }}
-        className='nav__list'
+        className='nav_list'
       >
         {projects.length ? (
-          <li className='nav__list-item'>
+          <li className='nav_list-item'>
             <a
               href='#projects'
               onClick={toggleNavList}
@@ -32,7 +32,7 @@ const Navbar = () => {
         ) : null}
 
         {skills.length ? (
-          <li className='nav__list-item'>
+          <li className='nav_list-item'>
             <a
               href='#skills'
               onClick={toggleNavList}
@@ -44,7 +44,7 @@ const Navbar = () => {
         ) : null}
 
         {contact.email ? (
-          <li className='nav__list-item'>
+          <li className='nav_list-item'>
             <a
               href='#contact'
               onClick={toggleNavList}
@@ -59,7 +59,7 @@ const Navbar = () => {
       <button
         type='button'
         onClick={toggleTheme}
-        className='btn btn--icon nav__theme'
+        className='btn btn--icon nav_theme'
         aria-label='toggle theme'
       >
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
@@ -68,7 +68,7 @@ const Navbar = () => {
       <button
         type='button'
         onClick={toggleNavList}
-        className='btn btn--icon nav__hamburger'
+        className='btn btn--icon nav_hamburger'
         aria-label='toggle navigation'
       >
         {showNavList ? <CloseIcon /> : <MenuIcon />}
