@@ -32,6 +32,12 @@
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
+    text-align: center;
     margin-top: 2em;
+  }
+
+  .about_contact {
+    margin: 0 auto;
+    margin-top: 2.4em;
   }
 }
