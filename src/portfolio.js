@@ -10,7 +10,6 @@ const about = {
   role: 'Full Stack Developer',
   description:
     'I am continuously learning new frameworks and programming languages! I find that the best way to practice these tools is to use them, so I am usually working on different side projects. Currently, I am working in ReactJS! When I am not busy coding, I can be found playing 8-ball, video games, or tennis!',
-  resume: 'https://read.cv/sderacy',
   social: {
     linkedin: 'https://www.linkedin.com/in/sterlyderacy/',
     github: 'https://www.github.com/sderacy',

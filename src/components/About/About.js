@@ -4,7 +4,7 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
@@ -16,22 +16,24 @@ const About = () => {
 
       {role && <h2 className='about_role'>A {role}.</h2>}
 
-      <img className='headshot-img' src='/headshot.jpg' alt='Sterly Deracy in a blue suit with an off-white shirt and blue and yellow tie!' />
+      <img
+        className='headshot-img'
+        src='/headshot.jpg'
+        alt='Sterly Deracy in a blue suit with an off-white shirt and blue and yellow tie!'
+      />
 
       <p className='about_desc'>{description && description}</p>
 
       <div className='about_contact center'>
-        {resume && (
-          <a
-            href={resume}
-            target='_blank'
-            rel="noopener noreferrer"
-          >
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
-        )}
+        <a
+          href={`${process.env.PUBLIC_URL}/Resume.pdf`}
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          <span type='button' className='btn btn--outline'>
+            Resume
+          </span>
+        </a>
 
         {social && (
           <>
@@ -41,7 +43,7 @@ const About = () => {
                 aria-label='github'
                 className='link link--icon'
                 target='_blank'
-                rel="noopener noreferrer"
+                rel='noopener noreferrer'
               >
                 <GitHubIcon />
               </a>
@@ -53,7 +55,7 @@ const About = () => {
                 aria-label='linkedin'
                 className='link link--icon'
                 target='_blank'
-                rel="noopener noreferrer"
+                rel='noopener noreferrer'
               >
                 <LinkedInIcon />
               </a>
